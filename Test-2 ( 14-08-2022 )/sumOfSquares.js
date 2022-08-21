@@ -7,3 +7,13 @@ function sumOfSquare(array) {
   }
    
   console.log(sumOfSquare([0,1,2,3,4])); 
+
+
+
+  
+
+
+
+
+
+
