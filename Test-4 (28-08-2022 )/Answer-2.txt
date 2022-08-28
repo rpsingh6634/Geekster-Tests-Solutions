@@ -1,0 +1,11 @@
+Question-2--
+            What all information is stored in package.json and how is it different from package-lock.json?
+
+
+Answer--
+         package.json holds important information about the project. It contains human-readable metadata about the project (like the project name and description) as well as functional metadata like the package version number and a list of dependencies required by the application.
+
+
+package.json is different from package.lock.json because package.json contains basic information about the project. where, package.lock.json describes the exact tree that was generated to allow subsequent installs to have the identical tree.
+
+package.json is mandatory for every project where package.lock.json is automatically generated for those operations where npm modifies either node_modules tree or package.json.

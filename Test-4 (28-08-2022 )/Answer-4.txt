@@ -1,0 +1,39 @@
+Question-4-- 
+            Briefly describe what is the use of the following in react js?
+App.js
+Index.js
+app.css
+index.html
+
+
+Answer--
+         
+      App.js--
+               This is a component. This is the first component that is used in any react application. This is the file for App Component. App Component is the main component in React which acts as a container for all other components.
+
+App. js is built to serve makers of static single-page apps. This means that it keeps all page navigation within the session of the webpage, defining "pages" as DOM nodes that can be instantiated. Pages are HTML elements that have certain generic components like a topbar and content area.
+
+
+
+      Index.js--
+                This contains the whole JS for your website. This also contains the initialization code for React.Index. js file is just like index. html file, if no specification is provided a directory points to it's index file. Index files are equivalent doesn't matter if it's javascript or typescript. For convenience we'll use index.
+
+index. js is the "entry point" for your application. The index. js contains the logic for rendering your App component and provides it with any necessary props (either directly, or via contexts).
+
+index. js typically handles your app startup, routing and other functions of your application and does require other modules to add functionality. If you're running a website or web app it would also handle become a basic HTTP web server replacing the role of something more traditional like Apache.
+  
+
+
+
+      App.css--
+               This is the CSS for App component. That means, whatever HTML we write in App can access this CSS, outside of that, other components cannot access.
+
+
+
+
+
+      index.html--
+                  The index. html page is the most common name used for the default page shown on a website if no other page is specified when a visitor requests the site. In other words, index. html is the name used for the homepage of the website.
+
+index. html is the main HTML file of our app that includes your React code and provides a context for React to render to. Let's take a look at the file: Specifically, it includes a div that your react app will show up inside.
+

@@ -1,0 +1,11 @@
+Question-3--
+             Does React uses Html? Explain 
+
+
+Answer--
+         React applications are usually built around a single HTML element.This is the power of React it takes the reusability of JavaScript functions, but allows us to use them like they were HTML. We refer to these custom elements made with JavaScript as components.
+
+
+HTML is the language of the web, but creating entire websites with HTML alone can be repetitive and hard to manage.
+What makes React such a desirable library to learn is that it doesn't replace HTML.
+It takes advantage of HTML's popularity and strength as the most popular programming language, by letting you use a very similar syntax to HTML to build interfaces and add dynamic features to it using JavaScript.
