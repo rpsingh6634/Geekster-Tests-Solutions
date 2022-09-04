@@ -1,0 +1,22 @@
+Ques--4
+       what is the use of the useMemo() hook? Explain by giving an example.
+
+Answer--4
+         Memoization is an optimization technique that passes a complex function to be memoized. In memoization, the result is “remembered” when the same parameters are passed-in subsequently.
+
+If we have a function compute 1 + 1, it will return 2. But if it uses memoization, the next time we run 1’s through the function, it won’t add them up; it will just remember the answer is 2 without executing the adding function.
+
+Example--
+         Here is an abstract example of using useMemo for an array of items that uses two computationally expensive functions-
+
+const List = React.useMemo(() => 
+  listOfItems.map(item => ({
+    ...item,
+    itemProp1: expensiveFunction(props.first),
+    itemProp2: anotherPriceyFunction(props.second) 
+  })), [listOfItems]
+)
+
+The useMemo function would run on the first render. It would block the thread until the expensive functions complete, as useMemo runs in the first render.
+
+Initially, this will not look as clean as useEffect, since useEffect can render a loading spinner until the expensive functions finish and the effects fire off.
